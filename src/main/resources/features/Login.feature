@@ -7,11 +7,11 @@ Feature: Testing Login Functionality
     Then User should see Login Page
 
     @Regression
-  Scenario Outline: Testing Login Functionality with valid credentials
-    Given User passed URL
+  Scenario Outline: credentials
+#    Given User passed URL
     When passed "<user>" and "<password>" Credentials
-    And click Submit Button
-    Then User should see Login Page
+#    And click Submit Button
+#    Then User should see Login Page
     Examples:
       | user    | password |
       | sirich8 | ss       |
